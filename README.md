@@ -1,54 +1,48 @@
 
 # CDKTF prebuilt bindings for hashicorp/http provider version 3.5.0
 
-HashiCorp made the decision to stop publishing new versions of prebuilt [Terraform http provider](https://registry.terraform.io/providers/hashicorp/http/3.5.0) bindings for [CDK for Terraform](https://cdk.tf) on December 10, 2025. As such, this repository has been archived and is no longer supported in any way by HashiCorp. Previously-published versions of this prebuilt provider will still continue to be available on their respective package managers (e.g. npm, PyPi, Maven, NuGet), but these will not be compatible with new releases of `cdktf` past `0.21.0` and are no longer eligible for commercial support.
+This repo builds and publishes the [Terraform http provider](https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs) bindings for [CDK for Terraform](https://cdk.tf).
 
-As a reminder, you can continue to use the `hashicorp/http` provider in your CDK for Terraform (CDKTF) projects, even with newer versions of CDKTF, but you will need to generate the bindings locally. The easiest way to do so is to use the [`provider add` command](https://developer.hashicorp.com/terraform/cdktf/cli-reference/commands#provider-add), optionally with the `--force-local` flag enabled:
-
-`cdktf provider add hashicorp/http --force-local`
-
-For more information and additional examples, check out our documentation on [generating provider bindings manually](https://cdk.tf/imports).
-
-## Deprecated Packages
+## Available Packages
 
 ### NPM
 
-The npm package is available at [https://www.npmjs.com/package/@cdktf/provider-http](https://www.npmjs.com/package/@cdktf/provider-http).
+The npm package is available at [https://www.npmjs.com/package/@cdktn/provider-http](https://www.npmjs.com/package/@cdktn/provider-http).
 
-`npm install @cdktf/provider-http`
+`npm install @cdktn/provider-http`
 
 ### PyPI
 
-The PyPI package is available at [https://pypi.org/project/cdktf-cdktf-provider-http](https://pypi.org/project/cdktf-cdktf-provider-http).
+The PyPI package is available at [https://pypi.org/project/cdktn-provider-http](https://pypi.org/project/cdktn-provider-http).
 
-`pipenv install cdktf-cdktf-provider-http`
+`pipenv install cdktn-provider-http`
 
 ### Nuget
 
-The Nuget package is available at [https://www.nuget.org/packages/HashiCorp.Cdktf.Providers.Http](https://www.nuget.org/packages/HashiCorp.Cdktf.Providers.Http).
+The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Http](https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Http).
 
-`dotnet add package HashiCorp.Cdktf.Providers.Http`
+`dotnet add package Io.Cdktn.Cdktn.Providers.Http`
 
 ### Maven
 
-The Maven package is available at [https://mvnrepository.com/artifact/com.hashicorp/cdktf-provider-http](https://mvnrepository.com/artifact/com.hashicorp/cdktf-provider-http).
+The Maven package is available at [https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-http](https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-http).
 
 ```
 <dependency>
-    <groupId>com.hashicorp</groupId>
-    <artifactId>cdktf-provider-http</artifactId>
+    <groupId>com.Io.Cdktn</groupId>
+    <artifactId>cdktn-provider-http</artifactId>
     <version>[REPLACE WITH DESIRED VERSION]</version>
 </dependency>
 ```
 
 ### Go
 
-The go package is generated into the [`github.com/cdktf/cdktf-provider-http-go`](https://github.com/cdktf/cdktf-provider-http-go) package.
+The go package is generated into the [`github.com/cdktn-io/cdktn-provider-http-go`](https://github.com/cdktn-io/cdktn-provider-http-go) package.
 
-`go get github.com/cdktf/cdktf-provider-http-go/http/<version>`
+`go get github.com/cdktn-io/cdktn-provider-http-go/http/<version>`
 
 Where `<version>` is the version of the prebuilt provider you would like to use e.g. `v11`. The full module name can be found
-within the [go.mod](https://github.com/cdktf/cdktf-provider-http-go/blob/main/http/go.mod#L1) file.
+within the [go.mod](https://github.com/cdktn-io/cdktn-provider-http-go/blob/main/http/go.mod#L1) file.
 
 ## Docs
 
@@ -60,4 +54,41 @@ Find auto-generated docs for this provider here:
 - [C#](./docs/API.csharp.md)
 - [Go](./docs/API.go.md)
 
-You can also visit a hosted version of the documentation on [constructs.dev](https://constructs.dev/packages/@cdktf/provider-http).
+You can also visit a hosted version of the documentation on [constructs.dev](https://constructs.dev/packages/@cdktn/provider-http).
+
+## Versioning
+
+This project is explicitly not tracking the Terraform http provider version 1:1. In fact, it always tracks `latest` of `~> 3.1` with every release. If there are scenarios where you explicitly have to pin your provider version, you can do so by [generating the provider constructs manually](https://cdk.tf/imports).
+
+These are the upstream dependencies:
+
+- [CDK for Terraform](https://cdk.tf) - Last official release
+- [Terraform http provider](https://registry.terraform.io/providers/hashicorp/http/3.5.0)
+- [Terraform Engine](https://terraform.io)
+
+If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.
+
+## Features / Issues / Bugs
+
+Please report bugs and issues to the [CDK for Terraform](https://cdk.tf) project:
+
+- [Create bug report](https://cdk.tf/bug)
+- [Create feature request](https://cdk.tf/feature)
+
+## Contributing
+
+### Projen
+
+This is mostly based on [Projen](https://projen.io), which takes care of generating the entire repository.
+
+### cdktn-provider-project based on Projen
+
+There's a custom [project builder](https://github.com/cdktn-io/cdktn-provider-project) which encapsulate the common settings for all `cdktf` prebuilt providers.
+
+### Provider Version
+
+The provider version can be adjusted in [./.projenrc.js](./.projenrc.js).
+
+### Repository Management
+
+The repository is managed by [CDKTN Repository Manager](https://github.com/cdktn-io/cdktn-repository-manager/).

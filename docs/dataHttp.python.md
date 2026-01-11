@@ -1,15 +1,15 @@
-# `dataHttp` Submodule <a name="`dataHttp` Submodule" id="@cdktf/provider-http.dataHttp"></a>
+# `dataHttp` Submodule <a name="`dataHttp` Submodule" id="@cdktn/provider-http.dataHttp"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### DataHttp <a name="DataHttp" id="@cdktf/provider-http.dataHttp.DataHttp"></a>
+### DataHttp <a name="DataHttp" id="@cdktn/provider-http.dataHttp.DataHttp"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http http}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_http import data_http
+from cdktn_provider_http import data_http
 
 dataHttp.DataHttp(
   scope: Construct,
@@ -36,29 +36,29 @@ dataHttp.DataHttp(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.url">url</a></code> | <code>str</code> | The URL for the request. Supported schemes are `http` and `https`. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.caCertPem">ca_cert_pem</a></code> | <code>str</code> | Certificate Authority (CA) in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.clientCertPem">client_cert_pem</a></code> | <code>str</code> | Client certificate in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.clientKeyPem">client_key_pem</a></code> | <code>str</code> | Client key in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | Disables verification of the server's certificate chain and hostname. Defaults to `false`. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.method">method</a></code> | <code>str</code> | The HTTP Method for the request. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.requestBody">request_body</a></code> | <code>str</code> | The request body as a string. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.requestHeaders">request_headers</a></code> | <code>typing.Mapping[str]</code> | A map of request header field names and values. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.requestTimeoutMs">request_timeout_ms</a></code> | <code>typing.Union[int, float]</code> | The request timeout in milliseconds. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.retry">retry</a></code> | <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a></code> | retry block. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.url">url</a></code> | <code>str</code> | The URL for the request. Supported schemes are `http` and `https`. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.caCertPem">ca_cert_pem</a></code> | <code>str</code> | Certificate Authority (CA) in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.clientCertPem">client_cert_pem</a></code> | <code>str</code> | Client certificate in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.clientKeyPem">client_key_pem</a></code> | <code>str</code> | Client key in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | Disables verification of the server's certificate chain and hostname. Defaults to `false`. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.method">method</a></code> | <code>str</code> | The HTTP Method for the request. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.requestBody">request_body</a></code> | <code>str</code> | The request body as a string. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.requestHeaders">request_headers</a></code> | <code>typing.Mapping[str]</code> | A map of request header field names and values. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.requestTimeoutMs">request_timeout_ms</a></code> | <code>typing.Union[int, float]</code> | The request timeout in milliseconds. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.retry">retry</a></code> | <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a></code> | retry block. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -66,7 +66,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -76,49 +76,49 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `url`<sup>Required</sup> <a name="url" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.url"></a>
+##### `url`<sup>Required</sup> <a name="url" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.url"></a>
 
 - *Type:* str
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ca_cert_pem`<sup>Optional</sup> <a name="ca_cert_pem" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.caCertPem"></a>
+##### `ca_cert_pem`<sup>Optional</sup> <a name="ca_cert_pem" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.caCertPem"></a>
 
 - *Type:* str
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `client_cert_pem`<sup>Optional</sup> <a name="client_cert_pem" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.clientCertPem"></a>
+##### `client_cert_pem`<sup>Optional</sup> <a name="client_cert_pem" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.clientCertPem"></a>
 
 - *Type:* str
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `client_key_pem`<sup>Optional</sup> <a name="client_key_pem" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.clientKeyPem"></a>
+##### `client_key_pem`<sup>Optional</sup> <a name="client_key_pem" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.clientKeyPem"></a>
 
 - *Type:* str
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.insecure"></a>
+##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.insecure"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `method`<sup>Optional</sup> <a name="method" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.method"></a>
+##### `method`<sup>Optional</sup> <a name="method" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.method"></a>
 
 - *Type:* str
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `request_body`<sup>Optional</sup> <a name="request_body" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.requestBody"></a>
+##### `request_body`<sup>Optional</sup> <a name="request_body" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.requestBody"></a>
 
 - *Type:* str
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `request_headers`<sup>Optional</sup> <a name="request_headers" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.requestHeaders"></a>
+##### `request_headers`<sup>Optional</sup> <a name="request_headers" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.requestHeaders"></a>
 
 - *Type:* typing.Mapping[str]
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `request_timeout_ms`<sup>Optional</sup> <a name="request_timeout_ms" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.requestTimeoutMs"></a>
+##### `request_timeout_ms`<sup>Optional</sup> <a name="request_timeout_ms" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.requestTimeoutMs"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -210,9 +210,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `retry`<sup>Optional</sup> <a name="retry" id="@cdktf/provider-http.dataHttp.DataHttp.Initializer.parameter.retry"></a>
+##### `retry`<sup>Optional</sup> <a name="retry" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer.parameter.retry"></a>
 
-- *Type:* <a href="#@cdktf/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a>
+- *Type:* <a href="#@cdktn/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a>
 
 retry block.
 
@@ -224,37 +224,37 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.toHclTerraform">to_hcl_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.putRetry">put_retry</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetCaCertPem">reset_ca_cert_pem</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetClientCertPem">reset_client_cert_pem</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetClientKeyPem">reset_client_key_pem</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetInsecure">reset_insecure</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetMethod">reset_method</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetRequestBody">reset_request_body</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetRequestHeaders">reset_request_headers</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetRequestTimeoutMs">reset_request_timeout_ms</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.resetRetry">reset_retry</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.toHclTerraform">to_hcl_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.putRetry">put_retry</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetCaCertPem">reset_ca_cert_pem</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetClientCertPem">reset_client_cert_pem</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetClientKeyPem">reset_client_key_pem</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetInsecure">reset_insecure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetMethod">reset_method</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetRequestBody">reset_request_body</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetRequestHeaders">reset_request_headers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetRequestTimeoutMs">reset_request_timeout_ms</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.resetRetry">reset_retry</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-http.dataHttp.DataHttp.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-http.dataHttp.DataHttp.toString"></a>
 
 ```python
 def to_string() -> str
@@ -262,7 +262,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-http.dataHttp.DataHttp.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-http.dataHttp.DataHttp.addOverride"></a>
 
 ```python
 def add_override(
@@ -271,19 +271,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-http.dataHttp.DataHttp.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-http.dataHttp.DataHttp.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-http.dataHttp.DataHttp.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-http.dataHttp.DataHttp.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-http.dataHttp.DataHttp.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-http.dataHttp.DataHttp.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -293,7 +293,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-http.dataHttp.DataHttp.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-http.dataHttp.DataHttp.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -301,7 +301,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-http.dataHttp.DataHttp.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-http.dataHttp.DataHttp.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -309,7 +309,7 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-http.dataHttp.DataHttp.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-http.dataHttp.DataHttp.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
@@ -317,13 +317,13 @@ def to_hcl_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-http.dataHttp.DataHttp.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-http.dataHttp.DataHttp.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-http.dataHttp.DataHttp.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-http.dataHttp.DataHttp.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -331,7 +331,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -339,13 +339,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -353,13 +353,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -367,13 +367,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -381,13 +381,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -395,13 +395,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -409,13 +409,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -423,13 +423,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -437,13 +437,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -451,13 +451,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -465,13 +465,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttp.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttp.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `put_retry` <a name="put_retry" id="@cdktf/provider-http.dataHttp.DataHttp.putRetry"></a>
+##### `put_retry` <a name="put_retry" id="@cdktn/provider-http.dataHttp.DataHttp.putRetry"></a>
 
 ```python
 def put_retry(
@@ -481,7 +481,7 @@ def put_retry(
 ) -> None
 ```
 
-###### `attempts`<sup>Optional</sup> <a name="attempts" id="@cdktf/provider-http.dataHttp.DataHttp.putRetry.parameter.attempts"></a>
+###### `attempts`<sup>Optional</sup> <a name="attempts" id="@cdktn/provider-http.dataHttp.DataHttp.putRetry.parameter.attempts"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -493,7 +493,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `max_delay_ms`<sup>Optional</sup> <a name="max_delay_ms" id="@cdktf/provider-http.dataHttp.DataHttp.putRetry.parameter.maxDelayMs"></a>
+###### `max_delay_ms`<sup>Optional</sup> <a name="max_delay_ms" id="@cdktn/provider-http.dataHttp.DataHttp.putRetry.parameter.maxDelayMs"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -503,7 +503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `min_delay_ms`<sup>Optional</sup> <a name="min_delay_ms" id="@cdktf/provider-http.dataHttp.DataHttp.putRetry.parameter.minDelayMs"></a>
+###### `min_delay_ms`<sup>Optional</sup> <a name="min_delay_ms" id="@cdktn/provider-http.dataHttp.DataHttp.putRetry.parameter.minDelayMs"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -513,55 +513,55 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `reset_ca_cert_pem` <a name="reset_ca_cert_pem" id="@cdktf/provider-http.dataHttp.DataHttp.resetCaCertPem"></a>
+##### `reset_ca_cert_pem` <a name="reset_ca_cert_pem" id="@cdktn/provider-http.dataHttp.DataHttp.resetCaCertPem"></a>
 
 ```python
 def reset_ca_cert_pem() -> None
 ```
 
-##### `reset_client_cert_pem` <a name="reset_client_cert_pem" id="@cdktf/provider-http.dataHttp.DataHttp.resetClientCertPem"></a>
+##### `reset_client_cert_pem` <a name="reset_client_cert_pem" id="@cdktn/provider-http.dataHttp.DataHttp.resetClientCertPem"></a>
 
 ```python
 def reset_client_cert_pem() -> None
 ```
 
-##### `reset_client_key_pem` <a name="reset_client_key_pem" id="@cdktf/provider-http.dataHttp.DataHttp.resetClientKeyPem"></a>
+##### `reset_client_key_pem` <a name="reset_client_key_pem" id="@cdktn/provider-http.dataHttp.DataHttp.resetClientKeyPem"></a>
 
 ```python
 def reset_client_key_pem() -> None
 ```
 
-##### `reset_insecure` <a name="reset_insecure" id="@cdktf/provider-http.dataHttp.DataHttp.resetInsecure"></a>
+##### `reset_insecure` <a name="reset_insecure" id="@cdktn/provider-http.dataHttp.DataHttp.resetInsecure"></a>
 
 ```python
 def reset_insecure() -> None
 ```
 
-##### `reset_method` <a name="reset_method" id="@cdktf/provider-http.dataHttp.DataHttp.resetMethod"></a>
+##### `reset_method` <a name="reset_method" id="@cdktn/provider-http.dataHttp.DataHttp.resetMethod"></a>
 
 ```python
 def reset_method() -> None
 ```
 
-##### `reset_request_body` <a name="reset_request_body" id="@cdktf/provider-http.dataHttp.DataHttp.resetRequestBody"></a>
+##### `reset_request_body` <a name="reset_request_body" id="@cdktn/provider-http.dataHttp.DataHttp.resetRequestBody"></a>
 
 ```python
 def reset_request_body() -> None
 ```
 
-##### `reset_request_headers` <a name="reset_request_headers" id="@cdktf/provider-http.dataHttp.DataHttp.resetRequestHeaders"></a>
+##### `reset_request_headers` <a name="reset_request_headers" id="@cdktn/provider-http.dataHttp.DataHttp.resetRequestHeaders"></a>
 
 ```python
 def reset_request_headers() -> None
 ```
 
-##### `reset_request_timeout_ms` <a name="reset_request_timeout_ms" id="@cdktf/provider-http.dataHttp.DataHttp.resetRequestTimeoutMs"></a>
+##### `reset_request_timeout_ms` <a name="reset_request_timeout_ms" id="@cdktn/provider-http.dataHttp.DataHttp.resetRequestTimeoutMs"></a>
 
 ```python
 def reset_request_timeout_ms() -> None
 ```
 
-##### `reset_retry` <a name="reset_retry" id="@cdktf/provider-http.dataHttp.DataHttp.resetRetry"></a>
+##### `reset_retry` <a name="reset_retry" id="@cdktn/provider-http.dataHttp.DataHttp.resetRetry"></a>
 
 ```python
 def reset_retry() -> None
@@ -571,17 +571,17 @@ def reset_retry() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.isTerraformDataSource">is_terraform_data_source</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a DataHttp resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.isTerraformDataSource">is_terraform_data_source</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a DataHttp resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-http.dataHttp.DataHttp.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-http.dataHttp.DataHttp.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_http import data_http
+from cdktn_provider_http import data_http
 
 dataHttp.DataHttp.is_construct(
   x: typing.Any
@@ -604,7 +604,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-http.dataHttp.DataHttp.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-http.dataHttp.DataHttp.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -612,42 +612,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-http.dataHttp.DataHttp.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-http.dataHttp.DataHttp.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_http import data_http
+from cdktn_provider_http import data_http
 
 dataHttp.DataHttp.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-http.dataHttp.DataHttp.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-http.dataHttp.DataHttp.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_data_source` <a name="is_terraform_data_source" id="@cdktf/provider-http.dataHttp.DataHttp.isTerraformDataSource"></a>
+##### `is_terraform_data_source` <a name="is_terraform_data_source" id="@cdktn/provider-http.dataHttp.DataHttp.isTerraformDataSource"></a>
 
 ```python
-from cdktf_cdktf_provider_http import data_http
+from cdktn_provider_http import data_http
 
 dataHttp.DataHttp.is_terraform_data_source(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-http.dataHttp.DataHttp.isTerraformDataSource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-http.dataHttp.DataHttp.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-http.dataHttp.DataHttp.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-http.dataHttp.DataHttp.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_http import data_http
+from cdktn_provider_http import data_http
 
 dataHttp.DataHttp.generate_config_for_import(
   scope: Construct,
@@ -659,7 +659,7 @@ dataHttp.DataHttp.generate_config_for_import(
 
 Generates CDKTF code for importing a DataHttp resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-http.dataHttp.DataHttp.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-http.dataHttp.DataHttp.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -667,7 +667,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-http.dataHttp.DataHttp.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-http.dataHttp.DataHttp.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -675,7 +675,7 @@ The construct id used in the generated config for the DataHttp to import.
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-http.dataHttp.DataHttp.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-http.dataHttp.DataHttp.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
@@ -685,7 +685,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-http.dataHttp.DataHttp.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-http.dataHttp.DataHttp.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -697,48 +697,48 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.body">body</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.responseBody">response_body</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.responseBodyBase64">response_body_base64</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.responseHeaders">response_headers</a></code> | <code>cdktf.StringMap</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.retry">retry</a></code> | <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference">DataHttpRetryOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.statusCode">status_code</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.caCertPemInput">ca_cert_pem_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.clientCertPemInput">client_cert_pem_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.clientKeyPemInput">client_key_pem_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.insecureInput">insecure_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.methodInput">method_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.requestBodyInput">request_body_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.requestHeadersInput">request_headers_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.requestTimeoutMsInput">request_timeout_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.retryInput">retry_input</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.urlInput">url_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.caCertPem">ca_cert_pem</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.clientCertPem">client_cert_pem</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.clientKeyPem">client_key_pem</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.method">method</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.requestBody">request_body</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.requestHeaders">request_headers</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.requestTimeoutMs">request_timeout_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.url">url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.body">body</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.responseBody">response_body</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.responseBodyBase64">response_body_base64</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.responseHeaders">response_headers</a></code> | <code>cdktf.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.retry">retry</a></code> | <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference">DataHttpRetryOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.statusCode">status_code</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.caCertPemInput">ca_cert_pem_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.clientCertPemInput">client_cert_pem_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.clientKeyPemInput">client_key_pem_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.insecureInput">insecure_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.methodInput">method_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.requestBodyInput">request_body_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.requestHeadersInput">request_headers_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.requestTimeoutMsInput">request_timeout_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.retryInput">retry_input</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.urlInput">url_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.caCertPem">ca_cert_pem</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.clientCertPem">client_cert_pem</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.clientKeyPem">client_key_pem</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.method">method</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.requestBody">request_body</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.requestHeaders">request_headers</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.requestTimeoutMs">request_timeout_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.url">url</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-http.dataHttp.DataHttp.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-http.dataHttp.DataHttp.property.node"></a>
 
 ```python
 node: Node
@@ -750,7 +750,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-http.dataHttp.DataHttp.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-http.dataHttp.DataHttp.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -760,7 +760,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-http.dataHttp.DataHttp.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-http.dataHttp.DataHttp.property.fqn"></a>
 
 ```python
 fqn: str
@@ -770,7 +770,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-http.dataHttp.DataHttp.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-http.dataHttp.DataHttp.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -780,7 +780,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-http.dataHttp.DataHttp.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-http.dataHttp.DataHttp.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -790,7 +790,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-http.dataHttp.DataHttp.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-http.dataHttp.DataHttp.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -800,7 +800,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-http.dataHttp.DataHttp.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-http.dataHttp.DataHttp.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -810,7 +810,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-http.dataHttp.DataHttp.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-http.dataHttp.DataHttp.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -820,7 +820,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-http.dataHttp.DataHttp.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-http.dataHttp.DataHttp.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -830,7 +830,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-http.dataHttp.DataHttp.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-http.dataHttp.DataHttp.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -840,7 +840,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-http.dataHttp.DataHttp.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-http.dataHttp.DataHttp.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -850,7 +850,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-http.dataHttp.DataHttp.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-http.dataHttp.DataHttp.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -860,7 +860,7 @@ provider: TerraformProvider
 
 ---
 
-##### `body`<sup>Required</sup> <a name="body" id="@cdktf/provider-http.dataHttp.DataHttp.property.body"></a>
+##### `body`<sup>Required</sup> <a name="body" id="@cdktn/provider-http.dataHttp.DataHttp.property.body"></a>
 
 ```python
 body: str
@@ -870,7 +870,7 @@ body: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-http.dataHttp.DataHttp.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-http.dataHttp.DataHttp.property.id"></a>
 
 ```python
 id: str
@@ -880,7 +880,7 @@ id: str
 
 ---
 
-##### `response_body`<sup>Required</sup> <a name="response_body" id="@cdktf/provider-http.dataHttp.DataHttp.property.responseBody"></a>
+##### `response_body`<sup>Required</sup> <a name="response_body" id="@cdktn/provider-http.dataHttp.DataHttp.property.responseBody"></a>
 
 ```python
 response_body: str
@@ -890,7 +890,7 @@ response_body: str
 
 ---
 
-##### `response_body_base64`<sup>Required</sup> <a name="response_body_base64" id="@cdktf/provider-http.dataHttp.DataHttp.property.responseBodyBase64"></a>
+##### `response_body_base64`<sup>Required</sup> <a name="response_body_base64" id="@cdktn/provider-http.dataHttp.DataHttp.property.responseBodyBase64"></a>
 
 ```python
 response_body_base64: str
@@ -900,7 +900,7 @@ response_body_base64: str
 
 ---
 
-##### `response_headers`<sup>Required</sup> <a name="response_headers" id="@cdktf/provider-http.dataHttp.DataHttp.property.responseHeaders"></a>
+##### `response_headers`<sup>Required</sup> <a name="response_headers" id="@cdktn/provider-http.dataHttp.DataHttp.property.responseHeaders"></a>
 
 ```python
 response_headers: StringMap
@@ -910,17 +910,17 @@ response_headers: StringMap
 
 ---
 
-##### `retry`<sup>Required</sup> <a name="retry" id="@cdktf/provider-http.dataHttp.DataHttp.property.retry"></a>
+##### `retry`<sup>Required</sup> <a name="retry" id="@cdktn/provider-http.dataHttp.DataHttp.property.retry"></a>
 
 ```python
 retry: DataHttpRetryOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference">DataHttpRetryOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference">DataHttpRetryOutputReference</a>
 
 ---
 
-##### `status_code`<sup>Required</sup> <a name="status_code" id="@cdktf/provider-http.dataHttp.DataHttp.property.statusCode"></a>
+##### `status_code`<sup>Required</sup> <a name="status_code" id="@cdktn/provider-http.dataHttp.DataHttp.property.statusCode"></a>
 
 ```python
 status_code: typing.Union[int, float]
@@ -930,7 +930,7 @@ status_code: typing.Union[int, float]
 
 ---
 
-##### `ca_cert_pem_input`<sup>Optional</sup> <a name="ca_cert_pem_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.caCertPemInput"></a>
+##### `ca_cert_pem_input`<sup>Optional</sup> <a name="ca_cert_pem_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.caCertPemInput"></a>
 
 ```python
 ca_cert_pem_input: str
@@ -940,7 +940,7 @@ ca_cert_pem_input: str
 
 ---
 
-##### `client_cert_pem_input`<sup>Optional</sup> <a name="client_cert_pem_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.clientCertPemInput"></a>
+##### `client_cert_pem_input`<sup>Optional</sup> <a name="client_cert_pem_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.clientCertPemInput"></a>
 
 ```python
 client_cert_pem_input: str
@@ -950,7 +950,7 @@ client_cert_pem_input: str
 
 ---
 
-##### `client_key_pem_input`<sup>Optional</sup> <a name="client_key_pem_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.clientKeyPemInput"></a>
+##### `client_key_pem_input`<sup>Optional</sup> <a name="client_key_pem_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.clientKeyPemInput"></a>
 
 ```python
 client_key_pem_input: str
@@ -960,7 +960,7 @@ client_key_pem_input: str
 
 ---
 
-##### `insecure_input`<sup>Optional</sup> <a name="insecure_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.insecureInput"></a>
+##### `insecure_input`<sup>Optional</sup> <a name="insecure_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.insecureInput"></a>
 
 ```python
 insecure_input: bool | IResolvable
@@ -970,7 +970,7 @@ insecure_input: bool | IResolvable
 
 ---
 
-##### `method_input`<sup>Optional</sup> <a name="method_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.methodInput"></a>
+##### `method_input`<sup>Optional</sup> <a name="method_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.methodInput"></a>
 
 ```python
 method_input: str
@@ -980,7 +980,7 @@ method_input: str
 
 ---
 
-##### `request_body_input`<sup>Optional</sup> <a name="request_body_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.requestBodyInput"></a>
+##### `request_body_input`<sup>Optional</sup> <a name="request_body_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.requestBodyInput"></a>
 
 ```python
 request_body_input: str
@@ -990,7 +990,7 @@ request_body_input: str
 
 ---
 
-##### `request_headers_input`<sup>Optional</sup> <a name="request_headers_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.requestHeadersInput"></a>
+##### `request_headers_input`<sup>Optional</sup> <a name="request_headers_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.requestHeadersInput"></a>
 
 ```python
 request_headers_input: typing.Mapping[str]
@@ -1000,7 +1000,7 @@ request_headers_input: typing.Mapping[str]
 
 ---
 
-##### `request_timeout_ms_input`<sup>Optional</sup> <a name="request_timeout_ms_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.requestTimeoutMsInput"></a>
+##### `request_timeout_ms_input`<sup>Optional</sup> <a name="request_timeout_ms_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.requestTimeoutMsInput"></a>
 
 ```python
 request_timeout_ms_input: typing.Union[int, float]
@@ -1010,17 +1010,17 @@ request_timeout_ms_input: typing.Union[int, float]
 
 ---
 
-##### `retry_input`<sup>Optional</sup> <a name="retry_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.retryInput"></a>
+##### `retry_input`<sup>Optional</sup> <a name="retry_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.retryInput"></a>
 
 ```python
 retry_input: IResolvable | DataHttpRetry
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a>
 
 ---
 
-##### `url_input`<sup>Optional</sup> <a name="url_input" id="@cdktf/provider-http.dataHttp.DataHttp.property.urlInput"></a>
+##### `url_input`<sup>Optional</sup> <a name="url_input" id="@cdktn/provider-http.dataHttp.DataHttp.property.urlInput"></a>
 
 ```python
 url_input: str
@@ -1030,7 +1030,7 @@ url_input: str
 
 ---
 
-##### `ca_cert_pem`<sup>Required</sup> <a name="ca_cert_pem" id="@cdktf/provider-http.dataHttp.DataHttp.property.caCertPem"></a>
+##### `ca_cert_pem`<sup>Required</sup> <a name="ca_cert_pem" id="@cdktn/provider-http.dataHttp.DataHttp.property.caCertPem"></a>
 
 ```python
 ca_cert_pem: str
@@ -1040,7 +1040,7 @@ ca_cert_pem: str
 
 ---
 
-##### `client_cert_pem`<sup>Required</sup> <a name="client_cert_pem" id="@cdktf/provider-http.dataHttp.DataHttp.property.clientCertPem"></a>
+##### `client_cert_pem`<sup>Required</sup> <a name="client_cert_pem" id="@cdktn/provider-http.dataHttp.DataHttp.property.clientCertPem"></a>
 
 ```python
 client_cert_pem: str
@@ -1050,7 +1050,7 @@ client_cert_pem: str
 
 ---
 
-##### `client_key_pem`<sup>Required</sup> <a name="client_key_pem" id="@cdktf/provider-http.dataHttp.DataHttp.property.clientKeyPem"></a>
+##### `client_key_pem`<sup>Required</sup> <a name="client_key_pem" id="@cdktn/provider-http.dataHttp.DataHttp.property.clientKeyPem"></a>
 
 ```python
 client_key_pem: str
@@ -1060,7 +1060,7 @@ client_key_pem: str
 
 ---
 
-##### `insecure`<sup>Required</sup> <a name="insecure" id="@cdktf/provider-http.dataHttp.DataHttp.property.insecure"></a>
+##### `insecure`<sup>Required</sup> <a name="insecure" id="@cdktn/provider-http.dataHttp.DataHttp.property.insecure"></a>
 
 ```python
 insecure: bool | IResolvable
@@ -1070,7 +1070,7 @@ insecure: bool | IResolvable
 
 ---
 
-##### `method`<sup>Required</sup> <a name="method" id="@cdktf/provider-http.dataHttp.DataHttp.property.method"></a>
+##### `method`<sup>Required</sup> <a name="method" id="@cdktn/provider-http.dataHttp.DataHttp.property.method"></a>
 
 ```python
 method: str
@@ -1080,7 +1080,7 @@ method: str
 
 ---
 
-##### `request_body`<sup>Required</sup> <a name="request_body" id="@cdktf/provider-http.dataHttp.DataHttp.property.requestBody"></a>
+##### `request_body`<sup>Required</sup> <a name="request_body" id="@cdktn/provider-http.dataHttp.DataHttp.property.requestBody"></a>
 
 ```python
 request_body: str
@@ -1090,7 +1090,7 @@ request_body: str
 
 ---
 
-##### `request_headers`<sup>Required</sup> <a name="request_headers" id="@cdktf/provider-http.dataHttp.DataHttp.property.requestHeaders"></a>
+##### `request_headers`<sup>Required</sup> <a name="request_headers" id="@cdktn/provider-http.dataHttp.DataHttp.property.requestHeaders"></a>
 
 ```python
 request_headers: typing.Mapping[str]
@@ -1100,7 +1100,7 @@ request_headers: typing.Mapping[str]
 
 ---
 
-##### `request_timeout_ms`<sup>Required</sup> <a name="request_timeout_ms" id="@cdktf/provider-http.dataHttp.DataHttp.property.requestTimeoutMs"></a>
+##### `request_timeout_ms`<sup>Required</sup> <a name="request_timeout_ms" id="@cdktn/provider-http.dataHttp.DataHttp.property.requestTimeoutMs"></a>
 
 ```python
 request_timeout_ms: typing.Union[int, float]
@@ -1110,7 +1110,7 @@ request_timeout_ms: typing.Union[int, float]
 
 ---
 
-##### `url`<sup>Required</sup> <a name="url" id="@cdktf/provider-http.dataHttp.DataHttp.property.url"></a>
+##### `url`<sup>Required</sup> <a name="url" id="@cdktn/provider-http.dataHttp.DataHttp.property.url"></a>
 
 ```python
 url: str
@@ -1124,11 +1124,11 @@ url: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttp.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttp.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-http.dataHttp.DataHttp.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-http.dataHttp.DataHttp.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -1140,12 +1140,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### DataHttpConfig <a name="DataHttpConfig" id="@cdktf/provider-http.dataHttp.DataHttpConfig"></a>
+### DataHttpConfig <a name="DataHttpConfig" id="@cdktn/provider-http.dataHttp.DataHttpConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-http.dataHttp.DataHttpConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-http.dataHttp.DataHttpConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_http import data_http
+from cdktn_provider_http import data_http
 
 dataHttp.DataHttpConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -1172,27 +1172,27 @@ dataHttp.DataHttpConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.url">url</a></code> | <code>str</code> | The URL for the request. Supported schemes are `http` and `https`. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.caCertPem">ca_cert_pem</a></code> | <code>str</code> | Certificate Authority (CA) in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.clientCertPem">client_cert_pem</a></code> | <code>str</code> | Client certificate in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.clientKeyPem">client_key_pem</a></code> | <code>str</code> | Client key in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | Disables verification of the server's certificate chain and hostname. Defaults to `false`. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.method">method</a></code> | <code>str</code> | The HTTP Method for the request. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.requestBody">request_body</a></code> | <code>str</code> | The request body as a string. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.requestHeaders">request_headers</a></code> | <code>typing.Mapping[str]</code> | A map of request header field names and values. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.requestTimeoutMs">request_timeout_ms</a></code> | <code>typing.Union[int, float]</code> | The request timeout in milliseconds. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpConfig.property.retry">retry</a></code> | <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a></code> | retry block. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.url">url</a></code> | <code>str</code> | The URL for the request. Supported schemes are `http` and `https`. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.caCertPem">ca_cert_pem</a></code> | <code>str</code> | Certificate Authority (CA) in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.clientCertPem">client_cert_pem</a></code> | <code>str</code> | Client certificate in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.clientKeyPem">client_key_pem</a></code> | <code>str</code> | Client key in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | Disables verification of the server's certificate chain and hostname. Defaults to `false`. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.method">method</a></code> | <code>str</code> | The HTTP Method for the request. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.requestBody">request_body</a></code> | <code>str</code> | The request body as a string. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.requestHeaders">request_headers</a></code> | <code>typing.Mapping[str]</code> | A map of request header field names and values. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.requestTimeoutMs">request_timeout_ms</a></code> | <code>typing.Union[int, float]</code> | The request timeout in milliseconds. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpConfig.property.retry">retry</a></code> | <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a></code> | retry block. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1202,7 +1202,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1212,7 +1212,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1222,7 +1222,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1232,7 +1232,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1242,7 +1242,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1252,7 +1252,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1262,7 +1262,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `url`<sup>Required</sup> <a name="url" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.url"></a>
+##### `url`<sup>Required</sup> <a name="url" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.url"></a>
 
 ```python
 url: str
@@ -1276,7 +1276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ca_cert_pem`<sup>Optional</sup> <a name="ca_cert_pem" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.caCertPem"></a>
+##### `ca_cert_pem`<sup>Optional</sup> <a name="ca_cert_pem" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.caCertPem"></a>
 
 ```python
 ca_cert_pem: str
@@ -1290,7 +1290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `client_cert_pem`<sup>Optional</sup> <a name="client_cert_pem" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.clientCertPem"></a>
+##### `client_cert_pem`<sup>Optional</sup> <a name="client_cert_pem" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.clientCertPem"></a>
 
 ```python
 client_cert_pem: str
@@ -1304,7 +1304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `client_key_pem`<sup>Optional</sup> <a name="client_key_pem" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.clientKeyPem"></a>
+##### `client_key_pem`<sup>Optional</sup> <a name="client_key_pem" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.clientKeyPem"></a>
 
 ```python
 client_key_pem: str
@@ -1318,7 +1318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.insecure"></a>
+##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.insecure"></a>
 
 ```python
 insecure: bool | IResolvable
@@ -1332,7 +1332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `method`<sup>Optional</sup> <a name="method" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.method"></a>
+##### `method`<sup>Optional</sup> <a name="method" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.method"></a>
 
 ```python
 method: str
@@ -1348,7 +1348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `request_body`<sup>Optional</sup> <a name="request_body" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.requestBody"></a>
+##### `request_body`<sup>Optional</sup> <a name="request_body" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.requestBody"></a>
 
 ```python
 request_body: str
@@ -1362,7 +1362,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `request_headers`<sup>Optional</sup> <a name="request_headers" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.requestHeaders"></a>
+##### `request_headers`<sup>Optional</sup> <a name="request_headers" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.requestHeaders"></a>
 
 ```python
 request_headers: typing.Mapping[str]
@@ -1376,7 +1376,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `request_timeout_ms`<sup>Optional</sup> <a name="request_timeout_ms" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.requestTimeoutMs"></a>
+##### `request_timeout_ms`<sup>Optional</sup> <a name="request_timeout_ms" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.requestTimeoutMs"></a>
 
 ```python
 request_timeout_ms: typing.Union[int, float]
@@ -1390,13 +1390,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `retry`<sup>Optional</sup> <a name="retry" id="@cdktf/provider-http.dataHttp.DataHttpConfig.property.retry"></a>
+##### `retry`<sup>Optional</sup> <a name="retry" id="@cdktn/provider-http.dataHttp.DataHttpConfig.property.retry"></a>
 
 ```python
 retry: DataHttpRetry
 ```
 
-- *Type:* <a href="#@cdktf/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a>
+- *Type:* <a href="#@cdktn/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a>
 
 retry block.
 
@@ -1404,12 +1404,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### DataHttpRetry <a name="DataHttpRetry" id="@cdktf/provider-http.dataHttp.DataHttpRetry"></a>
+### DataHttpRetry <a name="DataHttpRetry" id="@cdktn/provider-http.dataHttp.DataHttpRetry"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-http.dataHttp.DataHttpRetry.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-http.dataHttp.DataHttpRetry.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_http import data_http
+from cdktn_provider_http import data_http
 
 dataHttp.DataHttpRetry(
   attempts: typing.Union[int, float] = None,
@@ -1422,13 +1422,13 @@ dataHttp.DataHttpRetry(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetry.property.attempts">attempts</a></code> | <code>typing.Union[int, float]</code> | The number of times the request is to be retried. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetry.property.maxDelayMs">max_delay_ms</a></code> | <code>typing.Union[int, float]</code> | The maximum delay between retry requests in milliseconds. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetry.property.minDelayMs">min_delay_ms</a></code> | <code>typing.Union[int, float]</code> | The minimum delay between retry requests in milliseconds. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetry.property.attempts">attempts</a></code> | <code>typing.Union[int, float]</code> | The number of times the request is to be retried. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetry.property.maxDelayMs">max_delay_ms</a></code> | <code>typing.Union[int, float]</code> | The maximum delay between retry requests in milliseconds. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetry.property.minDelayMs">min_delay_ms</a></code> | <code>typing.Union[int, float]</code> | The minimum delay between retry requests in milliseconds. |
 
 ---
 
-##### `attempts`<sup>Optional</sup> <a name="attempts" id="@cdktf/provider-http.dataHttp.DataHttpRetry.property.attempts"></a>
+##### `attempts`<sup>Optional</sup> <a name="attempts" id="@cdktn/provider-http.dataHttp.DataHttpRetry.property.attempts"></a>
 
 ```python
 attempts: typing.Union[int, float]
@@ -1444,7 +1444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `max_delay_ms`<sup>Optional</sup> <a name="max_delay_ms" id="@cdktf/provider-http.dataHttp.DataHttpRetry.property.maxDelayMs"></a>
+##### `max_delay_ms`<sup>Optional</sup> <a name="max_delay_ms" id="@cdktn/provider-http.dataHttp.DataHttpRetry.property.maxDelayMs"></a>
 
 ```python
 max_delay_ms: typing.Union[int, float]
@@ -1458,7 +1458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `min_delay_ms`<sup>Optional</sup> <a name="min_delay_ms" id="@cdktf/provider-http.dataHttp.DataHttpRetry.property.minDelayMs"></a>
+##### `min_delay_ms`<sup>Optional</sup> <a name="min_delay_ms" id="@cdktn/provider-http.dataHttp.DataHttpRetry.property.minDelayMs"></a>
 
 ```python
 min_delay_ms: typing.Union[int, float]
@@ -1474,12 +1474,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### DataHttpRetryOutputReference <a name="DataHttpRetryOutputReference" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference"></a>
+### DataHttpRetryOutputReference <a name="DataHttpRetryOutputReference" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_http import data_http
+from cdktn_provider_http import data_http
 
 dataHttp.DataHttpRetryOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -1489,12 +1489,12 @@ dataHttp.DataHttpRetryOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1502,7 +1502,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -1514,32 +1514,32 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resetAttempts">reset_attempts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resetMaxDelayMs">reset_max_delay_ms</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resetMinDelayMs">reset_min_delay_ms</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resetAttempts">reset_attempts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resetMaxDelayMs">reset_max_delay_ms</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resetMinDelayMs">reset_min_delay_ms</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -1547,13 +1547,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -1561,13 +1561,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -1575,13 +1575,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -1589,13 +1589,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -1603,13 +1603,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -1617,13 +1617,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -1631,13 +1631,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -1645,13 +1645,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -1659,13 +1659,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -1673,13 +1673,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -1689,13 +1689,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -1705,19 +1705,19 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_attempts` <a name="reset_attempts" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resetAttempts"></a>
+##### `reset_attempts` <a name="reset_attempts" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resetAttempts"></a>
 
 ```python
 def reset_attempts() -> None
 ```
 
-##### `reset_max_delay_ms` <a name="reset_max_delay_ms" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resetMaxDelayMs"></a>
+##### `reset_max_delay_ms` <a name="reset_max_delay_ms" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resetMaxDelayMs"></a>
 
 ```python
 def reset_max_delay_ms() -> None
 ```
 
-##### `reset_min_delay_ms` <a name="reset_min_delay_ms" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.resetMinDelayMs"></a>
+##### `reset_min_delay_ms` <a name="reset_min_delay_ms" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.resetMinDelayMs"></a>
 
 ```python
 def reset_min_delay_ms() -> None
@@ -1728,19 +1728,19 @@ def reset_min_delay_ms() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.attemptsInput">attempts_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.maxDelayMsInput">max_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.minDelayMsInput">min_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.attempts">attempts</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.maxDelayMs">max_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.minDelayMs">min_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.attemptsInput">attempts_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.maxDelayMsInput">max_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.minDelayMsInput">min_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.attempts">attempts</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.maxDelayMs">max_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.minDelayMs">min_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -1754,7 +1754,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -1764,7 +1764,7 @@ fqn: str
 
 ---
 
-##### `attempts_input`<sup>Optional</sup> <a name="attempts_input" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.attemptsInput"></a>
+##### `attempts_input`<sup>Optional</sup> <a name="attempts_input" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.attemptsInput"></a>
 
 ```python
 attempts_input: typing.Union[int, float]
@@ -1774,7 +1774,7 @@ attempts_input: typing.Union[int, float]
 
 ---
 
-##### `max_delay_ms_input`<sup>Optional</sup> <a name="max_delay_ms_input" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.maxDelayMsInput"></a>
+##### `max_delay_ms_input`<sup>Optional</sup> <a name="max_delay_ms_input" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.maxDelayMsInput"></a>
 
 ```python
 max_delay_ms_input: typing.Union[int, float]
@@ -1784,7 +1784,7 @@ max_delay_ms_input: typing.Union[int, float]
 
 ---
 
-##### `min_delay_ms_input`<sup>Optional</sup> <a name="min_delay_ms_input" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.minDelayMsInput"></a>
+##### `min_delay_ms_input`<sup>Optional</sup> <a name="min_delay_ms_input" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.minDelayMsInput"></a>
 
 ```python
 min_delay_ms_input: typing.Union[int, float]
@@ -1794,7 +1794,7 @@ min_delay_ms_input: typing.Union[int, float]
 
 ---
 
-##### `attempts`<sup>Required</sup> <a name="attempts" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.attempts"></a>
+##### `attempts`<sup>Required</sup> <a name="attempts" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.attempts"></a>
 
 ```python
 attempts: typing.Union[int, float]
@@ -1804,7 +1804,7 @@ attempts: typing.Union[int, float]
 
 ---
 
-##### `max_delay_ms`<sup>Required</sup> <a name="max_delay_ms" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.maxDelayMs"></a>
+##### `max_delay_ms`<sup>Required</sup> <a name="max_delay_ms" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.maxDelayMs"></a>
 
 ```python
 max_delay_ms: typing.Union[int, float]
@@ -1814,7 +1814,7 @@ max_delay_ms: typing.Union[int, float]
 
 ---
 
-##### `min_delay_ms`<sup>Required</sup> <a name="min_delay_ms" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.minDelayMs"></a>
+##### `min_delay_ms`<sup>Required</sup> <a name="min_delay_ms" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.minDelayMs"></a>
 
 ```python
 min_delay_ms: typing.Union[int, float]
@@ -1824,13 +1824,13 @@ min_delay_ms: typing.Union[int, float]
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-http.dataHttp.DataHttpRetryOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-http.dataHttp.DataHttpRetryOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | DataHttpRetry
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-http.dataHttp.DataHttpRetry">DataHttpRetry</a>
 
 ---
 

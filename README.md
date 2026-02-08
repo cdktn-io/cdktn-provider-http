@@ -19,17 +19,17 @@ The PyPI package is available at [https://pypi.org/project/cdktn-provider-http](
 
 ### Nuget
 
-The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Http](https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Http).
+The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Providers.Http](https://www.nuget.org/packages/Io.Cdktn.Providers.Http).
 
-`dotnet add package Io.Cdktn.Cdktn.Providers.Http`
+`dotnet add package Io.Cdktn.Providers.Http`
 
 ### Maven
 
-The Maven package is available at [https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-http](https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-http).
+The Maven package is available at [https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-http](https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-http).
 
 ```
 <dependency>
-    <groupId>com.Io.Cdktn</groupId>
+    <groupId>io.cdktn</groupId>
     <artifactId>cdktn-provider-http</artifactId>
     <version>[REPLACE WITH DESIRED VERSION]</version>
 </dependency>

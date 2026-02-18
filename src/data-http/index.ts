@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataHttpConfig extends cdktf.TerraformMetaArguments {
+export interface DataHttpConfig extends cdktn.TerraformMetaArguments {
   /**
   * Certificate Authority (CA) in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format.
   *
@@ -35,7 +35,7 @@ export interface DataHttpConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#insecure DataHttp#insecure}
   */
-  readonly insecure?: boolean | cdktf.IResolvable;
+  readonly insecure?: boolean | cdktn.IResolvable;
   /**
   * The HTTP Method for the request. Allowed methods are a subset of methods defined in [RFC7231](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3) namely, `GET`, `HEAD`, and `POST`. `POST` support is only intended for read-only URLs, such as submitting a search.
   *
@@ -94,39 +94,39 @@ export interface DataHttpRetry {
   readonly minDelayMs?: number;
 }
 
-export function dataHttpRetryToTerraform(struct?: DataHttpRetry | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function dataHttpRetryToTerraform(struct?: DataHttpRetry | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    attempts: cdktf.numberToTerraform(struct!.attempts),
-    max_delay_ms: cdktf.numberToTerraform(struct!.maxDelayMs),
-    min_delay_ms: cdktf.numberToTerraform(struct!.minDelayMs),
+    attempts: cdktn.numberToTerraform(struct!.attempts),
+    max_delay_ms: cdktn.numberToTerraform(struct!.maxDelayMs),
+    min_delay_ms: cdktn.numberToTerraform(struct!.minDelayMs),
   }
 }
 
 
-export function dataHttpRetryToHclTerraform(struct?: DataHttpRetry | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function dataHttpRetryToHclTerraform(struct?: DataHttpRetry | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     attempts: {
-      value: cdktf.numberToHclTerraform(struct!.attempts),
+      value: cdktn.numberToHclTerraform(struct!.attempts),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_delay_ms: {
-      value: cdktf.numberToHclTerraform(struct!.maxDelayMs),
+      value: cdktn.numberToHclTerraform(struct!.maxDelayMs),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min_delay_ms: {
-      value: cdktf.numberToHclTerraform(struct!.minDelayMs),
+      value: cdktn.numberToHclTerraform(struct!.minDelayMs),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -137,19 +137,19 @@ export function dataHttpRetryToHclTerraform(struct?: DataHttpRetry | cdktf.IReso
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DataHttpRetryOutputReference extends cdktf.ComplexObject {
+export class DataHttpRetryOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataHttpRetry | cdktf.IResolvable | undefined {
+  public get internalValue(): DataHttpRetry | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -170,7 +170,7 @@ export class DataHttpRetryOutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataHttpRetry | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataHttpRetry | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -178,7 +178,7 @@ export class DataHttpRetryOutputReference extends cdktf.ComplexObject {
       this._maxDelayMs = undefined;
       this._minDelayMs = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -243,7 +243,7 @@ export class DataHttpRetryOutputReference extends cdktf.ComplexObject {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http http}
 */
-export class DataHttp extends cdktf.TerraformDataSource {
+export class DataHttp extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -254,14 +254,14 @@ export class DataHttp extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataHttp resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataHttp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHttp to import
   * @param importFromId The id of the existing DataHttp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHttp to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "http", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "http", importId: importFromId, provider });
       }
 
   // ===========
@@ -366,11 +366,11 @@ export class DataHttp extends cdktf.TerraformDataSource {
   }
 
   // insecure - computed: false, optional: true, required: false
-  private _insecure?: boolean | cdktf.IResolvable; 
+  private _insecure?: boolean | cdktn.IResolvable; 
   public get insecure() {
     return this.getBooleanAttribute('insecure');
   }
-  public set insecure(value: boolean | cdktf.IResolvable) {
+  public set insecure(value: boolean | cdktn.IResolvable) {
     this._insecure = value;
   }
   public resetInsecure() {
@@ -456,7 +456,7 @@ export class DataHttp extends cdktf.TerraformDataSource {
   }
 
   // response_headers - computed: true, optional: false, required: false
-  private _responseHeaders = new cdktf.StringMap(this, "response_headers");
+  private _responseHeaders = new cdktn.StringMap(this, "response_headers");
   public get responseHeaders() {
     return this._responseHeaders;
   }
@@ -501,15 +501,15 @@ export class DataHttp extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      ca_cert_pem: cdktf.stringToTerraform(this._caCertPem),
-      client_cert_pem: cdktf.stringToTerraform(this._clientCertPem),
-      client_key_pem: cdktf.stringToTerraform(this._clientKeyPem),
-      insecure: cdktf.booleanToTerraform(this._insecure),
-      method: cdktf.stringToTerraform(this._method),
-      request_body: cdktf.stringToTerraform(this._requestBody),
-      request_headers: cdktf.hashMapper(cdktf.stringToTerraform)(this._requestHeaders),
-      request_timeout_ms: cdktf.numberToTerraform(this._requestTimeoutMs),
-      url: cdktf.stringToTerraform(this._url),
+      ca_cert_pem: cdktn.stringToTerraform(this._caCertPem),
+      client_cert_pem: cdktn.stringToTerraform(this._clientCertPem),
+      client_key_pem: cdktn.stringToTerraform(this._clientKeyPem),
+      insecure: cdktn.booleanToTerraform(this._insecure),
+      method: cdktn.stringToTerraform(this._method),
+      request_body: cdktn.stringToTerraform(this._requestBody),
+      request_headers: cdktn.hashMapper(cdktn.stringToTerraform)(this._requestHeaders),
+      request_timeout_ms: cdktn.numberToTerraform(this._requestTimeoutMs),
+      url: cdktn.stringToTerraform(this._url),
       retry: dataHttpRetryToTerraform(this._retry.internalValue),
     };
   }
@@ -517,55 +517,55 @@ export class DataHttp extends cdktf.TerraformDataSource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       ca_cert_pem: {
-        value: cdktf.stringToHclTerraform(this._caCertPem),
+        value: cdktn.stringToHclTerraform(this._caCertPem),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       client_cert_pem: {
-        value: cdktf.stringToHclTerraform(this._clientCertPem),
+        value: cdktn.stringToHclTerraform(this._clientCertPem),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       client_key_pem: {
-        value: cdktf.stringToHclTerraform(this._clientKeyPem),
+        value: cdktn.stringToHclTerraform(this._clientKeyPem),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       insecure: {
-        value: cdktf.booleanToHclTerraform(this._insecure),
+        value: cdktn.booleanToHclTerraform(this._insecure),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       method: {
-        value: cdktf.stringToHclTerraform(this._method),
+        value: cdktn.stringToHclTerraform(this._method),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       request_body: {
-        value: cdktf.stringToHclTerraform(this._requestBody),
+        value: cdktn.stringToHclTerraform(this._requestBody),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       request_headers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._requestHeaders),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._requestHeaders),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       request_timeout_ms: {
-        value: cdktf.numberToHclTerraform(this._requestTimeoutMs),
+        value: cdktn.numberToHclTerraform(this._requestTimeoutMs),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       url: {
-        value: cdktf.stringToHclTerraform(this._url),
+        value: cdktn.stringToHclTerraform(this._url),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

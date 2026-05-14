@@ -4,7 +4,7 @@
 
 ### HttpProvider <a name="HttpProvider" id="@cdktn/provider-http.provider.HttpProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs http}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs http}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-http.provider.HttpProvider.Initializer"></a>
 
@@ -262,7 +262,7 @@ The construct id used in the generated config for the HttpProvider to import.
 
 The id of the existing HttpProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -443,7 +443,7 @@ public string Alias { get; set; }
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs#alias HttpProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs#alias HttpProvider#alias}
 
 ---
 

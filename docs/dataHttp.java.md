@@ -4,7 +4,7 @@
 
 ### DataHttp <a name="DataHttp" id="@cdktn/provider-http.dataHttp.DataHttp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http http}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http http}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-http.dataHttp.DataHttp.Initializer"></a>
 
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The URL for the request. Supported schemes are `http` and `https`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#url DataHttp#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#url DataHttp#url}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Certificate Authority (CA) in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#ca_cert_pem DataHttp#ca_cert_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#ca_cert_pem DataHttp#ca_cert_pem}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Client certificate in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#client_cert_pem DataHttp#client_cert_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#client_cert_pem DataHttp#client_cert_pem}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Client key in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#client_key_pem DataHttp#client_key_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#client_key_pem DataHttp#client_key_pem}
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Disables verification of the server's certificate chain and hostname. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#insecure DataHttp#insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#insecure DataHttp#insecure}
 
 ---
 
@@ -174,7 +174,7 @@ The HTTP Method for the request.
 
 Allowed methods are a subset of methods defined in [RFC7231](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3) namely, `GET`, `HEAD`, and `POST`. `POST` support is only intended for read-only URLs, such as submitting a search.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#method DataHttp#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#method DataHttp#method}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The request body as a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#request_body DataHttp#request_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#request_body DataHttp#request_body}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of request header field names and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#request_headers DataHttp#request_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#request_headers DataHttp#request_headers}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The request timeout in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#request_timeout_ms DataHttp#request_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#request_timeout_ms DataHttp#request_timeout_ms}
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 retry block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#retry DataHttp#retry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#retry DataHttp#retry}
 
 ---
 
@@ -635,7 +635,7 @@ The construct id used in the generated config for the DataHttp to import.
 
 The id of the existing DataHttp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1226,7 +1226,7 @@ public java.lang.String getUrl();
 
 The URL for the request. Supported schemes are `http` and `https`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#url DataHttp#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#url DataHttp#url}
 
 ---
 
@@ -1240,7 +1240,7 @@ public java.lang.String getCaCertPem();
 
 Certificate Authority (CA) in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#ca_cert_pem DataHttp#ca_cert_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#ca_cert_pem DataHttp#ca_cert_pem}
 
 ---
 
@@ -1254,7 +1254,7 @@ public java.lang.String getClientCertPem();
 
 Client certificate in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#client_cert_pem DataHttp#client_cert_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#client_cert_pem DataHttp#client_cert_pem}
 
 ---
 
@@ -1268,7 +1268,7 @@ public java.lang.String getClientKeyPem();
 
 Client key in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#client_key_pem DataHttp#client_key_pem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#client_key_pem DataHttp#client_key_pem}
 
 ---
 
@@ -1282,7 +1282,7 @@ public java.lang.Boolean|IResolvable getInsecure();
 
 Disables verification of the server's certificate chain and hostname. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#insecure DataHttp#insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#insecure DataHttp#insecure}
 
 ---
 
@@ -1298,7 +1298,7 @@ The HTTP Method for the request.
 
 Allowed methods are a subset of methods defined in [RFC7231](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3) namely, `GET`, `HEAD`, and `POST`. `POST` support is only intended for read-only URLs, such as submitting a search.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#method DataHttp#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#method DataHttp#method}
 
 ---
 
@@ -1312,7 +1312,7 @@ public java.lang.String getRequestBody();
 
 The request body as a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#request_body DataHttp#request_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#request_body DataHttp#request_body}
 
 ---
 
@@ -1326,7 +1326,7 @@ public java.util.Map<java.lang.String, java.lang.String> getRequestHeaders();
 
 A map of request header field names and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#request_headers DataHttp#request_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#request_headers DataHttp#request_headers}
 
 ---
 
@@ -1340,7 +1340,7 @@ public java.lang.Number getRequestTimeoutMs();
 
 The request timeout in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#request_timeout_ms DataHttp#request_timeout_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#request_timeout_ms DataHttp#request_timeout_ms}
 
 ---
 
@@ -1354,7 +1354,7 @@ public DataHttpRetry getRetry();
 
 retry block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#retry DataHttp#retry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#retry DataHttp#retry}
 
 ---
 
@@ -1394,7 +1394,7 @@ The number of times the request is to be retried.
 
 For example, if 2 is specified, the request will be tried a maximum of 3 times.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#attempts DataHttp#attempts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#attempts DataHttp#attempts}
 
 ---
 
@@ -1408,7 +1408,7 @@ public java.lang.Number getMaxDelayMs();
 
 The maximum delay between retry requests in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#max_delay_ms DataHttp#max_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#max_delay_ms DataHttp#max_delay_ms}
 
 ---
 
@@ -1422,7 +1422,7 @@ public java.lang.Number getMinDelayMs();
 
 The minimum delay between retry requests in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.5.0/docs/data-sources/http#min_delay_ms DataHttp#min_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.0/docs/data-sources/http#min_delay_ms DataHttp#min_delay_ms}
 
 ---
 

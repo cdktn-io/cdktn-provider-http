@@ -97,7 +97,7 @@ export interface DataHttpRetry {
 export function dataHttpRetryToTerraform(struct?: DataHttpRetry | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     attempts: cdktn.numberToTerraform(struct!.attempts),
@@ -110,7 +110,7 @@ export function dataHttpRetryToTerraform(struct?: DataHttpRetry | cdktn.IResolva
 export function dataHttpRetryToHclTerraform(struct?: DataHttpRetry | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     attempts: {

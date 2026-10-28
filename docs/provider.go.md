@@ -4,12 +4,12 @@
 
 ### HttpProvider <a name="HttpProvider" id="@cdktn/provider-http.provider.HttpProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.6.2/docs http}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/http/3.6.3/docs http}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-http.provider.HttpProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-http-go/http/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-http-go/http/v14/provider"
 
 provider.NewHttpProvider(scope Construct, id *string, config HttpProviderConfig) HttpProvider
 ```
@@ -173,7 +173,7 @@ func ResetAlias()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-http.provider.HttpProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-http-go/http/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-http-go/http/v14/provider"
 
 provider.HttpProvider_IsConstruct(x interface{}) *bool
 ```
@@ -205,7 +205,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-http.provider.HttpProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-http-go/http/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-http-go/http/v14/provider"
 
 provider.HttpProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -219,7 +219,7 @@ provider.HttpProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-http.provider.HttpProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-http-go/http/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-http-go/http/v14/provider"
 
 provider.HttpProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -233,7 +233,7 @@ provider.HttpProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-http.provider.HttpProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-http-go/http/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-http-go/http/v14/provider"
 
 provider.HttpProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -262,7 +262,7 @@ The construct id used in the generated config for the HttpProvider to import.
 
 The id of the existing HttpProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.6.2/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/http/3.6.3/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -418,7 +418,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-http.provider.HttpProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-http-go/http/v13/provider"
+import "github.com/cdktn-io/cdktn-provider-http-go/http/v14/provider"
 
 &provider.HttpProviderConfig {
 	Alias: *string,
@@ -443,7 +443,7 @@ Alias *string
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.2/docs#alias HttpProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/http/3.6.3/docs#alias HttpProvider#alias}
 
 ---
 
